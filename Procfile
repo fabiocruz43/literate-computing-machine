@@ -1,4 +1,5 @@
 
 
-web: gunicorn app_streamlit:app
+web: gunicorn neralagenciamento:app
+
 

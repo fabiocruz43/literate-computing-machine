@@ -1,2 +1,4 @@
-web: gunicorn app_streamlit.py
+
+
+web: gunicorn app_streamlit:app
 

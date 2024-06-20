@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher Categoria</title>
+</head>
+<body>
+    <h1>Escolha uma Categoria</h1>
+    <ul>
+        {% for categoria in servicos.keys() %}
+            <li><a href="{{ url_for('escolher_profissao', categoria=categoria) }}">{{ categoria }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

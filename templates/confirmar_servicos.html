@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmar Serviços</title>
+</head>
+<body>
+    <h1>Confirmar Serviços Selecionados</h1>
+    <ul>
+        {% for servico in servicos %}
+            <li>{{ servico }}</li>
+        {% endfor %}
+    </ul>
+    <form method="POST">
+        <input type="submit" value="Confirmar">
+    </form>
+</body>
+</html>

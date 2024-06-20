@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher Serviço</title>
+</head>
+<body>
+    <h1>Escolha um Serviço para {{ profissao }} em {{ categoria }}</h1>
+    <form method="POST">
+        {% for servico in servicos %}
+            <input type="checkbox" name="servicos" value="{{ servico }}"> {{ servico }}<br>
+        {% endfor %}
+        <input type="submit" value="Selecionar Serviços">
+    </form>
+</body>
+</html>

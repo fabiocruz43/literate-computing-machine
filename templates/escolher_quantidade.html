@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher Quantidade</title>
+</head>
+<body>
+    <h1>Escolha a Quantidade de Serviços para {{ profissao }} em {{ categoria }}</h1>
+    <form method="POST">
+        {% for servico in servicos %}
+            <label>{{ servico }}:</label>
+            <input type="number" name="quantidade_{{ servico }}" min="1" max="10"><br>
+        {% endfor %}
+        <input type="submit" value="Confirmar Quantidades">
+    </form>
+</body>
+</html>

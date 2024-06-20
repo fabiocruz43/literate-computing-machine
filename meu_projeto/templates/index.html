@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Página Inicial{% endblock %}
+{% block content %}
+    <h1>Bem-vindo ao Meu Site</h1>
+    <a href="{{ url_for('cadastro_cliente') }}" class="btn btn-primary">Cadastrar Cliente</a>
+{% endblock %}

@@ -1,6 +1,7 @@
+gunicorn neralagenciamento.main:app
 
 
 
 
 
-web: gunicorn neralagenciamento.app:app
+

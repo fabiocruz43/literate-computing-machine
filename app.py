@@ -1,116 +1,74 @@
 import streamlit as st
-from streamlit_wtf import st_form
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
+import mercadopago
+import os
+from dotenv import load_dotenv
 
-# Configuração básica do Streamlit
-st.set_page_config(page_title="Aplicativo de Serviços", layout="wide")
+# Carregar variáveis de ambiente do arquivo .env
+load_dotenv()
 
-# Serviços disponíveis
-servicos = {
-    'Técnicos': {
-        'Eletricista': ['Instalação de fiação', 'Reparo de curto-circuito', 'Manutenção elétrica'],
-        'Técnico em Informática': ['Reparo de computadores', 'Instalação de software', 'Configuração de rede'],
-        'Técnico em Enfermagem': ['Cuidados de saúde', 'Administração de medicamentos', 'Acompanhamento hospitalar'],
-        'Técnico em Segurança do Trabalho': ['Avaliação de riscos', 'Treinamento de segurança', 'Inspeção de EPI'],
-        'Técnico em Edificações': [
-            'Supervisão de obras', 'Leitura e interpretação de projetos', 'Execução de obras',
-            'Orçamento de materiais', 'Desenho técnico', 'Planejamento de obras',
-            'Acompanhamento de cronogramas', 'Controle de qualidade', 'Topografia',
-            'Fiscalização de obras', 'Gestão de equipes', 'Análise de solos',
-            'Manutenção predial', 'Regularização de imóveis', 'Projeto de fundações',
-            'Elaboração de relatórios técnicos', 'Cálculo estrutural', 'Consultoria técnica'
-        ],
-        'Gesseiro': ['Aplicação de gesso', 'Reparos em gesso', 'Decoração em gesso'],
-        'Pedreiro': ['Construção de paredes', 'Reboco', 'Assentamento de pisos e azulejos'],
-        'Pintor': ['Pintura interna', 'Pintura externa', 'Pintura decorativa'],
-        'Carpinteiro': ['Confecção de estruturas de madeira', 'Instalação de portas e janelas', 'Marcenaria'],
-        'Marceneiro': ['Fabricação de móveis', 'Reparos em móveis', 'Instalação de móveis']
-    },
-    'Domésticos': {
-        'Cozinheira': ['Preparação de refeições', 'Organização da cozinha', 'Compras de mercado'],
-        'Passadeira': ['Passar roupas', 'Organização de guarda-roupa'],
-        'Babá': ['Cuidado de crianças', 'Atividades educativas'],
-        'Cuidador de Idosos': ['Acompanhamento', 'Administração de medicamentos'],
-        'Diarista': ['Limpeza geral', 'Arrumação de casa'],
-        'Faxineira': ['Limpeza pesada', 'Limpeza de janelas']
-    }
+# Configuração inicial do Mercado Pago
+SEU_ACCESS_TOKEN = os.getenv("MERCADO_PAGO_ACCESS_TOKEN")
+if not SEU_ACCESS_TOKEN:
+    st.error("O token de acesso do Mercado Pago não foi encontrado. Certifique-se de definir a variável de ambiente corretamente.")
+else:
+    mp = mercadopago.SDK(SEU_ACCESS_TOKEN)
+
+# Dados fictícios para simular o funcionamento do sistema
+categorias = ['Domésticos', 'Construção e Reformas', 'Técnicos']
+profissoes = {
+    'Domésticos': ['Cozinheira', 'Passadeira', 'Babá', 'Cuidador de Idosos', 'Diarista', 'Faxineira'],
+    'Construção e Reformas': ['Pedreiro', 'Pintor', 'Carpinteiro', 'Marceneiro', 'Gesseiro'],
+    'Técnicos': ['Eletricista', 'Técnico em Informática', 'Técnico em Enfermagem', 'Técnico em Segurança do Trabalho', 'Técnico em Edificações']
 }
 
-# Classe para formulário de cliente
-class ClienteForm:
-    def __init__(self):
-        self.nome = st.text_input("Nome")
-        self.email = st.text_input("Email")
-        self.telefone = st.text_input("Telefone")
-        self.endereco = st.text_input("Endereço")
-        self.submit_button = st.button("Cadastrar")
+# Função para o cadastro de cliente
+def cadastrar_cliente():
+    st.subheader('Cadastro de Cliente')
+    nome = st.text_input('Nome:')
+    cpf = st.text_input('CPF:')
+    endereco = st.text_input('Endereço:')
+    identidade_file = st.file_uploader('Envie uma cópia do documento de identidade (RG ou CNH):', type=['pdf', 'jpg', 'png', 'jpeg'])
+    comprovante_residencia_file = st.file_uploader('Envie uma cópia do comprovante de residência:', type=['pdf', 'jpg', 'png', 'jpeg'])
+    whatsapp = st.text_input('Telefone (WhatsApp):')
 
-# Renderiza a página inicial
-def renderiza_pagina_inicial():
-    st.title("Página Inicial")
-    st.write("Selecione uma opção no menu lateral para começar.")
+    if st.button('Confirmar cadastro'):
+        st.success('Cadastro de cliente realizado com sucesso!')
 
-# Renderiza a página de escolha de categoria
-def renderiza_escolha_categoria():
-    st.title("Escolha uma Categoria")
-    categorias = ['Técnicos', 'Domésticos']
-    categoria_escolhida = st.selectbox("Selecione uma categoria:", categorias)
-    if st.button("Próximo"):
-        st.session_state.categoria = categoria_escolhida
-        st.session_state.pagina_atual = "Escolha de Profissão"
+# Função para o cadastro de profissional
+def cadastrar_profissional():
+    st.subheader('Cadastro de Profissional')
+    nome = st.text_input('Nome:')
+    cpf = st.text_input('CPF:')
+    identidade_file = st.file_uploader('Envie uma cópia do documento de identidade (RG ou CNH):', type=['pdf', 'jpg', 'png', 'jpeg'])
+    endereco = st.text_input('Endereço:')
+    comprovante_residencia_file = st.file_uploader('Envie uma cópia do comprovante de residência:', type=['pdf', 'jpg', 'png', 'jpeg'])
+    whatsapp = st.text_input('Telefone (WhatsApp):')
 
-# Renderiza a página de escolha de profissão
-def renderiza_escolha_profissao():
-    st.title("Escolha uma Profissão")
-    categoria = st.session_state.categoria
-    if categoria == 'Técnicos':
-        profissoes = list(servicos['Técnicos'].keys())
-    elif categoria == 'Domésticos':
-        profissoes = list(servicos['Domésticos'].keys())
+    st.subheader('Selecione os serviços que você oferece:')
+    servicos_oferecidos = {}
 
-    profissao_escolhida = st.selectbox("Selecione uma profissão:", profissoes)
-    if st.button("Próximo"):
-        st.session_state.profissao = profissao_escolhida
-        st.session_state.pagina_atual = "Resumo"
+    for categoria in categorias:
+        st.write(f"### Categoria: {categoria}")
+        profissoes_categoria = profissoes.get(categoria, [])
+        for profissao in profissoes_categoria:
+            servicos_oferecidos[profissao] = st.checkbox(f"{profissao}")
 
-# Renderiza a página de resumo
-def renderiza_resumo():
-    st.title("Resumo da Seleção")
-    categoria = st.session_state.categoria
-    profissao = st.session_state.profissao
-    st.write(f"Categoria escolhida: {categoria}")
-    st.write(f"Profissão escolhida: {profissao}")
-    if st.button("Confirmar"):
-        st.session_state.pagina_atual = "Página Final"
+    if st.button('Confirmar cadastro'):
+        st.success('Cadastro de profissional realizado com sucesso!')
 
-# Renderiza a página final
-def renderiza_pagina_final():
-    st.title("Página Final")
-    st.write("Obrigado por usar nosso aplicativo!")
-
-# Função principal para controlar a navegação entre páginas
+# Interface principal usando Streamlit
 def main():
-    st.sidebar.title("Menu de Navegação")
-    paginas = {
-        "Página Inicial": renderiza_pagina_inicial,
-        "Escolha de Categoria": renderiza_escolha_categoria,
-        "Escolha de Profissão": renderiza_escolha_profissao,
-        "Resumo": renderiza_resumo,
-        "Página Final": renderiza_pagina_final
-    }
+    st.title('Neral Agência Virtual')
+    st.write('Seja bem-vindo!')
+    st.write('Antes de usar nossos serviços, precisamos que realize seu cadastro logo abaixo.')
 
-    if 'pagina_atual' not in st.session_state:
-        st.session_state.pagina_atual = "Página Inicial"
+    opcao = st.radio('Você é:', ['Cliente: Cadastre-se', 'Profissional: Cadastre-se'])
 
-    pagina_atual = st.session_state.pagina_atual
-    paginas[pagina_atual]()
+    if opcao == 'Cliente: Cadastre-se':
+        cadastrar_cliente()
 
-    pagina_selecionada = st.sidebar.selectbox("Selecione uma página:", list(paginas.keys()))
-    if pagina_selecionada != pagina_atual:
-        st.session_state.pagina_atual = pagina_selecionada
-        st.experimental_rerun()
+    elif opcao == 'Profissional: Cadastre-se':
+        cadastrar_profissional()
 
-# Executa o aplicativo
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

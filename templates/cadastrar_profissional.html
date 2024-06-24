@@ -1,0 +1,27 @@
+<!-- templates/cadastrar_profissional.html -->
+{% extends "base.html" %}
+
+{% block title %}Cadastro de Profissional{% endblock %}
+
+{% block content %}
+  <h1>Cadastro de Profissional</h1>
+  <form method="POST" action="">
+    {{ form.hidden_tag() }}
+    {{ form.csrf_token }}
+    <div>
+      {{ form.nome.label }}: {{ form.nome() }}
+    </div>
+    <div>
+      {{ form.email.label }}: {{ form.email() }}
+    </div>
+    <div>
+      {{ form.senha.label }}: {{ form.senha() }}
+    </div>
+    <div>
+      {{ form.confirmar_senha.label }}: {{ form.confirmar_senha() }}
+    </div>
+    <div>
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+{% endblock %}

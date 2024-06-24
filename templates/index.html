@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-</head>
-<body>
-    <h1>Bem-vindo a Neral agenciamento</h1>
-    <a href="{{ url_for('cadastro_cliente') }}">Cadastre-se</a>
-</body>
-</html>
+<!-- templates/index.html -->
+{% extends "base.html" %}
 
- b
+{% block title %}Neral Agência Virtual{% endblock %}
+
+{% block content %}
+  <h1>Bem-vindo à Neral Agência Virtual</h1>
+  <ul>
+    <li><a href="{{ url_for('cadastrar_profissional') }}">Cadastrar Profissional</a></li>
+    <li><a href="{{ url_for('cadastrar_cliente') }}">Cadastrar Cliente</a></li>
+  </ul>
+{% endblock %}

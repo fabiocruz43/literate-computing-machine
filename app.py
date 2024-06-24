@@ -1,116 +1,77 @@
-import streamlit as st
-from streamlit_wtf import st_form
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
+from flask import Flask, render_template, redirect, url_for, flash
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField, SubmitField
+from wtforms.validators import DataRequired, EqualTo
 
-# Configuração básica do Streamlit
-st.set_page_config(page_title="Aplicativo de Serviços", layout="wide")
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'mysecret'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cadastro.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Serviços disponíveis
-servicos = {
-    'Técnicos': {
-        'Eletricista': ['Instalação de fiação', 'Reparo de curto-circuito', 'Manutenção elétrica'],
-        'Técnico em Informática': ['Reparo de computadores', 'Instalação de software', 'Configuração de rede'],
-        'Técnico em Enfermagem': ['Cuidados de saúde', 'Administração de medicamentos', 'Acompanhamento hospitalar'],
-        'Técnico em Segurança do Trabalho': ['Avaliação de riscos', 'Treinamento de segurança', 'Inspeção de EPI'],
-        'Técnico em Edificações': [
-            'Supervisão de obras', 'Leitura e interpretação de projetos', 'Execução de obras',
-            'Orçamento de materiais', 'Desenho técnico', 'Planejamento de obras',
-            'Acompanhamento de cronogramas', 'Controle de qualidade', 'Topografia',
-            'Fiscalização de obras', 'Gestão de equipes', 'Análise de solos',
-            'Manutenção predial', 'Regularização de imóveis', 'Projeto de fundações',
-            'Elaboração de relatórios técnicos', 'Cálculo estrutural', 'Consultoria técnica'
-        ],
-        'Gesseiro': ['Aplicação de gesso', 'Reparos em gesso', 'Decoração em gesso'],
-        'Pedreiro': ['Construção de paredes', 'Reboco', 'Assentamento de pisos e azulejos'],
-        'Pintor': ['Pintura interna', 'Pintura externa', 'Pintura decorativa'],
-        'Carpinteiro': ['Confecção de estruturas de madeira', 'Instalação de portas e janelas', 'Marcenaria'],
-        'Marceneiro': ['Fabricação de móveis', 'Reparos em móveis', 'Instalação de móveis']
-    },
-    'Domésticos': {
-        'Cozinheira': ['Preparação de refeições', 'Organização da cozinha', 'Compras de mercado'],
-        'Passadeira': ['Passar roupas', 'Organização de guarda-roupa'],
-        'Babá': ['Cuidado de crianças', 'Atividades educativas'],
-        'Cuidador de Idosos': ['Acompanhamento', 'Administração de medicamentos'],
-        'Diarista': ['Limpeza geral', 'Arrumação de casa'],
-        'Faxineira': ['Limpeza pesada', 'Limpeza de janelas']
-    }
-}
+db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
-# Classe para formulário de cliente
-class ClienteForm:
-    def __init__(self):
-        self.nome = st.text_input("Nome")
-        self.email = st.text_input("Email")
-        self.telefone = st.text_input("Telefone")
-        self.endereco = st.text_input("Endereço")
-        self.submit_button = st.button("Cadastrar")
+# Exemplo de modelo SQLAlchemy para Profissional
+class Profissional(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nome = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), nullable=False)
+    senha = db.Column(db.String(100), nullable=False)
 
-# Renderiza a página inicial
-def renderiza_pagina_inicial():
-    st.title("Página Inicial")
-    st.write("Selecione uma opção no menu lateral para começar.")
+# Exemplo de modelo SQLAlchemy para Cliente
+class Cliente(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nome = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), nullable=False)
+    telefone = db.Column(db.String(20), nullable=False)
 
-# Renderiza a página de escolha de categoria
-def renderiza_escolha_categoria():
-    st.title("Escolha uma Categoria")
-    categorias = ['Técnicos', 'Domésticos']
-    categoria_escolhida = st.selectbox("Selecione uma categoria:", categorias)
-    if st.button("Próximo"):
-        st.session_state.categoria = categoria_escolhida
-        st.session_state.pagina_atual = "Escolha de Profissão"
+# Formulário WTForms para Cadastro de Profissional
+class CadastroProfissionalForm(FlaskForm):
+    nome = StringField('Nome', validators=[DataRequired()])
+    email = StringField('E-mail', validators=[DataRequired()])
+    senha = PasswordField('Senha', validators=[DataRequired()])
+    confirmar_senha = PasswordField('Confirmar Senha', validators=[DataRequired(), EqualTo('senha')])
+    submit = SubmitField('Cadastrar')
 
-# Renderiza a página de escolha de profissão
-def renderiza_escolha_profissao():
-    st.title("Escolha uma Profissão")
-    categoria = st.session_state.categoria
-    if categoria == 'Técnicos':
-        profissoes = list(servicos['Técnicos'].keys())
-    elif categoria == 'Domésticos':
-        profissoes = list(servicos['Domésticos'].keys())
+# Formulário WTForms para Cadastro de Cliente
+class CadastroClienteForm(FlaskForm):
+    nome = StringField('Nome', validators=[DataRequired()])
+    email = StringField('E-mail', validators=[DataRequired()])
+    telefone = StringField('Telefone', validators=[DataRequired()])
+    submit = SubmitField('Cadastrar')
 
-    profissao_escolhida = st.selectbox("Selecione uma profissão:", profissoes)
-    if st.button("Próximo"):
-        st.session_state.profissao = profissao_escolhida
-        st.session_state.pagina_atual = "Resumo"
+# Rota para a página inicial
+@app.route('/')
+def index():
+    return render_template('index.html', title='Neral Agência Virtual')
 
-# Renderiza a página de resumo
-def renderiza_resumo():
-    st.title("Resumo da Seleção")
-    categoria = st.session_state.categoria
-    profissao = st.session_state.profissao
-    st.write(f"Categoria escolhida: {categoria}")
-    st.write(f"Profissão escolhida: {profissao}")
-    if st.button("Confirmar"):
-        st.session_state.pagina_atual = "Página Final"
+# Rota para cadastrar um novo profissional
+@app.route('/cadastrar_profissional', methods=['GET', 'POST'])
+def cadastrar_profissional():
+    form = CadastroProfissionalForm()
+    if form.validate_on_submit():
+        # Processamento do formulário
+        profissional = Profissional(nome=form.nome.data, email=form.email.data, senha=form.senha.data)
+        db.session.add(profissional)
+        db.session.commit()
+        flash('Profissional cadastrado com sucesso!', 'success')
+        return redirect(url_for('index'))
+    return render_template('cadastrar_profissional.html', form=form)
 
-# Renderiza a página final
-def renderiza_pagina_final():
-    st.title("Página Final")
-    st.write("Obrigado por usar nosso aplicativo!")
+# Rota para cadastrar um novo cliente
+@app.route('/cadastrar_cliente', methods=['GET', 'POST'])
+def cadastrar_cliente():
+    form = CadastroClienteForm()
+    if form.validate_on_submit():
+        # Processamento do formulário
+        cliente = Cliente(nome=form.nome.data, email=form.email.data, telefone=form.telefone.data)
+        db.session.add(cliente)
+        db.session.commit()
+        flash('Cliente cadastrado com sucesso!', 'success')
+        return redirect(url_for('index'))
+    return render_template('cadastrar_cliente.html', form=form)
 
-# Função principal para controlar a navegação entre páginas
-def main():
-    st.sidebar.title("Menu de Navegação")
-    paginas = {
-        "Página Inicial": renderiza_pagina_inicial,
-        "Escolha de Categoria": renderiza_escolha_categoria,
-        "Escolha de Profissão": renderiza_escolha_profissao,
-        "Resumo": renderiza_resumo,
-        "Página Final": renderiza_pagina_final
-    }
-
-    if 'pagina_atual' not in st.session_state:
-        st.session_state.pagina_atual = "Página Inicial"
-
-    pagina_atual = st.session_state.pagina_atual
-    paginas[pagina_atual]()
-
-    pagina_selecionada = st.sidebar.selectbox("Selecione uma página:", list(paginas.keys()))
-    if pagina_selecionada != pagina_atual:
-        st.session_state.pagina_atual = pagina_selecionada
-        st.experimental_rerun()
-
-# Executa o aplicativo
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    app.run(debug=True)

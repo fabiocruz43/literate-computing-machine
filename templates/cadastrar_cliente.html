@@ -1,0 +1,21 @@
+@app.route('/cadastrar_cliente', methods=['GET', 'POST'])
+def cadastrar_cliente():
+    form = CadastroClienteForm()
+    if form.validate_on_submit():
+        # Verifica se o CPF já existe
+        if Cliente.query.filter_by(cpf=form.cpf.data).first():
+            flash('CPF já cadastrado. Por favor, verifique os dados.', 'danger')
+            return redirect(url_for('cadastrar_cliente'))
+
+        # Processamento do formulário
+        cliente = Cliente(
+            nome=form.nome.data,
+            email=form.email.data,
+            telefone=form.telefone.data,
+            cpf=form.cpf.data
+        )
+        db.session.add(cliente)
+        db.session.commit()
+        flash('Cliente cadastrado com sucesso!', 'success')
+        return redirect(url_for('index'))
+    return render_template('cadastrar_cliente.html', form=form)

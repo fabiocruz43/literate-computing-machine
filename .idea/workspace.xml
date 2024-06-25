@@ -8,7 +8,7 @@
       <change afterPath="$PROJECT_DIR$/neralagenciamento/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/neralagenciamento/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/app.py" afterDir="false" />
@@ -35,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/neralagenciamento" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

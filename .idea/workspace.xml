@@ -7,8 +7,6 @@
     <list default="true" id="c2c56894-071a-490f-8983-baefcfefe08c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/neralagenciamento/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/neralagenciamento/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_streamlit.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_streamlit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/app.py" afterDir="false" />

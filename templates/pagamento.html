@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Pagamento</title>
+    <!-- Incluir o SDK do Mercado Pago -->
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
     <h1>Escolha a Forma de Pagamento</h1>
@@ -12,5 +14,10 @@
         <input type="radio" name="forma_pagamento" value="boleto"> Boleto Bancário<br>
         <input type="submit" value="Pagar">
     </form>
+
+    <!-- Código do Mercado Pago -->
+    <script>
+        const mp = new MercadoPago("YOUR_PUBLIC_KEY");
+    </script>
 </body>
 </html>

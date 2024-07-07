@@ -5,19 +5,400 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c56894-071a-490f-8983-baefcfefe08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/neralagenciamento/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neralagenciamento/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/_distutils_hack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/_distutils_hack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/_distutils_hack/override.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/_distutils_hack/override.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/distutils-precedence.pth" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/distutils-precedence.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/_typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/pkg_resources/tests/data/my-test-package-source/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools-58.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_deprecation_warning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/_msvccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/_msvccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/archive_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/archive_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/bcppcompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/bcppcompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/ccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/ccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/cmd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_dumb.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_dumb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_msi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_rpm.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_rpm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/bdist_wininst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_clib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_clib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/build_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_headers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/install_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/py37compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/sdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/command/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/cygwinccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/cygwinccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dep_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dep_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dir_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dir_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/fancy_getopt.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/fancy_getopt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/file_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/file_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/filelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/filelist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/msvccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/msvccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/py35compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/py38compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/py38compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/spawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/spawn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/sysconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/sysconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/text_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/text_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/unixccompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/unixccompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/versionpredicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_distutils/versionpredicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_imp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/more.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/recipes.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/more_itertools/recipes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/ordered_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/ordered_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/_structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/_typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/markers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/requirements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/specifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/packaging/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/archive_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/archive_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/build_meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/build_meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli-32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli-32.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli-64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli-64.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/cli.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/bdist_egg.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/bdist_rpm.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/bdist_rpm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_clib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_clib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/build_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/develop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/dist_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/dist_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/launcher manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/launcher manifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/py36compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/rotate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/saveopts.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/saveopts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/setopt.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/setopt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/upload_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/dep_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/depends.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/depends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/glob.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/glob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui-32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui-32.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui-64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui-64.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/gui.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/installer.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/installer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/msvc.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/msvc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/namespaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/namespaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/py34compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/sandbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/script (dev).tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/script (dev).tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/script.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/script.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/unicode_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/unicode_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/windows_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/myenv/Lib/site-packages/setuptools/windows_support.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/meu_projeto/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/meu_projeto/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/meu_projeto/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/meu_projeto/templates/index.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/templates/cadastrar_cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/templates/cadastrar_cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/templates/cadastrar_profissional.html" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/templates/cadastrar_profissional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neralagenciamento/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/process_payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pagamento.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pagamento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_plugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_plugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-24.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/vendor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/vendor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy-1.5.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_callers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_callers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_tracing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_tracing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_warnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/AUTHORS.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit-3.0.43.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/current.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/current.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/run_in_terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/application/run_in_terminal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/auto_suggest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/auto_suggest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/in_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/in_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/pyperclip.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/clipboard/pyperclip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/deduplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/deduplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/fuzzy_completer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/fuzzy_completer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/nested.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/nested.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/word_completer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/completion/word_completer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/completers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/completers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/completers/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/completers/system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/completion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/regex_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/regex_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/regular_languages/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/ssh/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/ssh/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/ssh/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/ssh/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/contrib/telnet/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/cursor_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/cursor_shapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/data_structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/async_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/async_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/inputhook.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/inputhook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/win32.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/eventloop/win32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/filters/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/ansi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/ansi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/pygments.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/pygments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/formatted_text/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/ansi_escape_sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/ansi_escape_sequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/posix_pipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/posix_pipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/posix_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/posix_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/typeahead.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/typeahead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/vt100.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/vt100.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/vt100_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/vt100_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/win32.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/win32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/win32_pipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/input/win32_pipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/auto_suggest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/auto_suggest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/completion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/cpr.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/cpr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/focus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/mouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/open_in_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/open_in_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/page_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/page_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/vi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/bindings/vi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/digraphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/digraphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/emacs_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/emacs_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/key_bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/key_bindings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/key_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/key_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/vi_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/key_binding/vi_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/containers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/containers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/dimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/dimension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/layout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/layout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/margins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/margins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/menus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/mouse_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/mouse_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/scrollable_pane.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/scrollable_pane.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/layout/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/pygments.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/lexers/pygments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/mouse_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/mouse_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/color_depth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/color_depth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/conemu.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/conemu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/flush_stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/flush_stdout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/plain_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/plain_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/vt100.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/vt100.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/win32.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/win32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/windows10.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/output/windows10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/patch_stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/patch_stdout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/formatters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/progress_bar/formatters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/shortcuts/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/named_colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/named_colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/pygments.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/pygments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/style_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/styles/style_transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/token.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/menus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/toolbars.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/widgets/toolbars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/win32_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/prompt_toolkit/win32_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytest-8.2.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest-8.2.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-70.0.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_core_metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_core_metadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/build_meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/build_meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/_requirestxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/_requirestxt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_egg.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/develop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/editable_wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/editable_wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/rotate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/compat/py311.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/compat/py311.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_apply_pyprojecttoml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_apply_pyprojecttoml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/expand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/expand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/pyprojecttoml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/pyprojecttoml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/setupcfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/setupcfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/depends.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/depends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/discovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/msvc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/msvc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/sandbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/py.test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/py.test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pytest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pytest.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +408,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,9 +431,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../pasta de projeto de cursinho python no youtube" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.app_streamlit">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectsitedetrabalhofrilance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +469,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app_streamlit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectsitedetrabalhofrilance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_streamlit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,27 +540,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="novo projeto de serviços." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProjectsitedetrabalhofrilance" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/novo projeto de serviços..py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="waitress_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectsitedetrabalhofrilance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,11 +563,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app_streamlit" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.waitress_config" />
         <item itemvalue="Python.gunicorn_config" />
-        <item itemvalue="Python.novo projeto de serviços." />
       </list>
     </recent_temporary>
   </component>

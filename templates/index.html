@@ -1,12 +1,43 @@
-<!-- templates/index.html -->
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #form-checkout {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+        }
 
-{% block title %}Neral Agência Virtual{% endblock %}
+        .container {
+            height: 18px;
+            display: inline-block;
+            border: 1px solid rgb(118, 118, 118);
+            border-radius: 2px;
+            padding: 1px 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha a Forma de Pagamento</h1>
+    <form id="form-checkout">
+        <div id="form-checkout__cardNumber" class="container"></div>
+        <div id="form-checkout__expirationDate" class="container"></div>
+        <div id="form-checkout__securityCode" class="container"></div>
+        <input type="text" id="form-checkout__cardholderName" placeholder="Titular do cartão" />
+        <select id="form-checkout__issuer" placeholder="Banco emissor"></select>
+        <select id="form-checkout__installments" placeholder="Parcelas"></select>
+        <select id="form-checkout__identificationType" placeholder="Tipo de documento"></select>
+        <input type="text" id="form-checkout__identificationNumber" placeholder="Número do documento" />
+        <input type="email" id="form-checkout__cardholderEmail" placeholder="E-mail" />
 
-{% block content %}
-  <h1>Bem-vindo à Neral Agência Virtual</h1>
-  <ul>
-    <li><a href="{{ url_for('cadastrar_profissional') }}">Cadastrar Profissional</a></li>
-    <li><a href="{{ url_for('cadastrar_cliente') }}">Cadastrar Cliente</a></li>
-  </ul>
-{% endblock %}
+        <button type="submit" id="form-checkout__submit">Pagar</button>
+        <progress value="0" class="progress-bar">Carregando...</progress>
+    </form>
+
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

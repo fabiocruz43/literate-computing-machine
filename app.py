@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-from flask import Flask, render_template, redirect, url_for, flash, request
-=======
-<<<<<<< HEAD
 import streamlit as st
 import mercadopago
 import os
 from dotenv import load_dotenv
-
 
 # Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
@@ -62,7 +57,7 @@ def cadastrar_profissional():
         st.success('Cadastro de profissional realizado com sucesso!')
 
 # Interface principal usando Streamlit
-def main():
+def main_streamlit():
     st.title('Neral Agência Virtual')
     st.write('Seja bem-vindo!')
     st.write('Antes de usar nossos serviços, precisamos que realize seu cadastro logo abaixo.')
@@ -75,11 +70,7 @@ def main():
     elif opcao == 'Profissional: Cadastre-se':
         cadastrar_profissional()
 
-if __name__ == '__main__':
-    main()
-=======
 from flask import Flask, render_template, redirect, url_for, flash
->>>>>>> heroku/main
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_wtf import FlaskForm
@@ -156,7 +147,7 @@ def index():
 
 # Rota para cadastrar um novo profissional
 @app.route('/cadastrar_profissional', methods=['GET', 'POST'])
-def cadastrar_profissional():
+def cadastrar_profissional_flask():
     form = CadastroProfissionalForm()
     if form.validate_on_submit():
         hashed_password = generate_password_hash(form.senha.data, method='sha256')
@@ -169,7 +160,7 @@ def cadastrar_profissional():
 
 # Rota para cadastrar um novo cliente
 @app.route('/cadastrar_cliente', methods=['GET', 'POST'])
-def cadastrar_cliente():
+def cadastrar_cliente_flask():
     form = CadastroClienteForm()
     if form.validate_on_submit():
         cliente = Cliente(nome=form.nome.data, email=form.email.data, telefone=form.telefone.data)
@@ -209,4 +200,3 @@ def minha_rota_protegida():
 
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> origin/master

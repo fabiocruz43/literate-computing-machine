@@ -4,7 +4,9 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/composer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/composer/composer/meu_projeto_composer/composer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/máquina-de-computação-literata" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/neralagenciamento" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/neralagenciamento/neralagenciamento" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/seu_repositorio" vcs="Git" />
   </component>
 </project>

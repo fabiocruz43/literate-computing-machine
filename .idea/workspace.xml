@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c56894-071a-490f-8983-baefcfefe08c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" afterDir="false" />
@@ -40,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../pasta de projeto de cursinho python no youtube" />
   </component>
   <component name="RunManager" selected="Python.app_streamlit">

@@ -1,0 +1,2 @@
+streamlit: streamlit run app_streamlit.py
+flask: python flask_app.py

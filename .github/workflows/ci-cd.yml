@@ -1,40 +1,40 @@
-name: CI/CD Pipeline
+name: Pipeline CI/CD
 
 on:
   push:
     branches:
-      - develop  # Mude para o nome da sua branch principal, se necessário
+      - develop   # Mude para o nome da sua branch principal, se necessário
   pull_request:
     branches:
-      - develop  # Mude para a branch principal correspondente
+      - develop   # Mude para a filial principal correspondente
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Check out code
         uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # Escolha a versão do Python que você está usando
+          python-version: '3.x'   # Escolha a versão do Python que você está usando
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Substitua pelo comando correto para instalar suas dependências
+          pip install -r requirements.txt  # Substituído pelo comando correto para instalar suas dependências
 
       - name: Run tests
         run: |
-          pytest  # Substitua pelo comando correto para executar seus testes
+          pytest  # Substituído pelo comando correto para executar seus testes
 
       - name: Deploy to Heroku
         if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-          HEROKU_APP_NAME: neralagenciamento  # Substitua pelo nome do seu app no Heroku
+          HEROKU_APP_NAME: neralagenciamento  # Substituído pelo nome do seu aplicativo no Heroku
         run: |
           heroku git:remote -a $HEROKU_APP_NAME
           git push heroku develop:main

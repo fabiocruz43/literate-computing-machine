@@ -6,12 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c56894-071a-490f-8983-baefcfefe08c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/neralagenciamento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neralagenciamento/neralagenciamento/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/neralagenciamento/neralagenciamento/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_callers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_callers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_tracing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_tracing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pluggy/_version.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

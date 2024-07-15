@@ -32,7 +32,10 @@ def cadastrar_cliente():
     whatsapp = st.text_input('Telefone (WhatsApp):')
 
     if st.button('Confirmar cadastro'):
-        st.success('Cadastro de cliente realizado com sucesso!')
+        if not nome or not cpf or not endereco or not identidade_file or not comprovante_residencia_file or not whatsapp:
+            st.error("Por favor, preencha todos os campos obrigatórios.")
+        else:
+            st.success('Cadastro de cliente realizado com sucesso!')
 
 # Função para o cadastro de profissional
 def cadastrar_profissional():
@@ -54,7 +57,10 @@ def cadastrar_profissional():
             servicos_oferecidos[profissao] = st.checkbox(f"{profissao}")
 
     if st.button('Confirmar cadastro'):
-        st.success('Cadastro de profissional realizado com sucesso!')
+        if not nome or not cpf or not endereco or not identidade_file or not comprovante_residencia_file or not whatsapp:
+            st.error("Por favor, preencha todos os campos obrigatórios.")
+        else:
+            st.success('Cadastro de profissional realizado com sucesso!')
 
 # Interface principal usando Streamlit
 def main():
